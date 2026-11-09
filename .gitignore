@@ -1,0 +1,42 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Models, inference caches and local application data
+/models/
+/runs/
+/validation/
+/backups/
+.cache/
+.yolo/
+.mpl/
+*.pt
+*.onnx
+**/evidence/
+
+# Recordings and generated reports (synthetic demos can be regenerated)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+report*.json
+report*.pdf
+review.html
+Screenshot*.png
+Screenshot*.jpg
+
+# Local configuration and operating-system files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.DS_Store

@@ -1,0 +1,6 @@
+{
+  "events": [
+    {"time_seconds": 5.5, "type": "page_hidden"},
+    {"time_seconds": 8.0, "type": "window_blur"}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "external",
+  "fps": 4,
+  "threshold": 0.35,
+  "minimum": 0.75
+}
